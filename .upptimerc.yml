@@ -1,9 +1,18 @@
 owner: K12-Analytics-Engineering
 repo: kai-status
 
+assignees:
+  - xmarcosx
+
 sites:
   - name: Kai
     url: https://askkai.org
+  - name: Kai API
+    url: https://askkai.org/api/health
+  - name: K12 Analytics Engineering
+    url: https://k12analyticsengineering.dev
+  - name: Kai Status
+    url: https://status.askkai.org
 
 status-website:
   cname: status.askkai.org

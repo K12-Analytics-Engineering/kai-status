@@ -38,7 +38,7 @@ status-website:
       --body-background-color: #faf6f0;
       --body-text-color: #1e1612;
       --card-background-color: #f2ebe0;
-      --nav-background-color: #1e1612;
+      --nav-background-color: #f2ebe0;
     }
     body {
       font-family: 'DM Sans', system-ui, sans-serif;
@@ -49,7 +49,18 @@ status-website:
       font-family: 'Fraunces', Georgia, serif;
     }
     nav, .navbar, header {
-      background-color: #1e1612 !important;
+      background-color: #f2ebe0 !important;
+      color: #1e1612 !important;
+    }
+    nav a, .navbar a, header a, .navbar-item {
+      color: #1e1612 !important;
+    }
+    nav a:hover, .navbar a:hover, header a:hover {
+      color: #c1623f !important;
+    }
+    .navbar-brand .navbar-item {
+      color: #c1623f !important;
+      font-weight: 700;
     }
     a {
       color: #c1623f;

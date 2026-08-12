@@ -1,7 +1,7 @@
 url: https://askkai.org/api/health
-status: up
-code: 200
-responseTime: 246
-lastUpdated: 2026-08-11T23:18:46.642Z
+status: down
+code: 403
+responseTime: 157
+lastUpdated: 2026-08-12T20:04:03.254Z
 startTime: 2026-04-16T04:01:33.533Z
 generator: Upptime <https://github.com/upptime/upptime>

@@ -13,7 +13,7 @@
     "time": 243,
     "timeDay": 0,
     "timeWeek": 0,
-    "timeMonth": 262,
+    "timeMonth": 263,
     "timeYear": 243,
     "dailyMinutesDown": {
       "2026-04-21": 865,
@@ -35,7 +35,7 @@
     "time": 256,
     "timeDay": 0,
     "timeWeek": 0,
-    "timeMonth": 252,
+    "timeMonth": 254,
     "timeYear": 256,
     "dailyMinutesDown": {
       "2026-04-21": 865,
@@ -49,15 +49,15 @@
     "icon": "https://icons.duckduckgo.com/ip3/k12analyticsengineering.dev.ico",
     "slug": "k12-analytics-engineering",
     "status": "up",
-    "uptime": "99.43%",
+    "uptime": "99.44%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.43%",
+    "uptimeYear": "99.44%",
     "time": 138,
     "timeDay": 0,
     "timeWeek": 0,
-    "timeMonth": 133,
+    "timeMonth": 136,
     "timeYear": 138,
     "dailyMinutesDown": {
       "2026-05-22": 948,
@@ -78,7 +78,7 @@
     "time": 235,
     "timeDay": 0,
     "timeWeek": 0,
-    "timeMonth": 234,
+    "timeMonth": 232,
     "timeYear": 235,
     "dailyMinutesDown": {}
   }

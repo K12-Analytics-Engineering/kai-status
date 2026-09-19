@@ -13,7 +13,7 @@
     "time": 243,
     "timeDay": 0,
     "timeWeek": 0,
-    "timeMonth": 264,
+    "timeMonth": 257,
     "timeYear": 243,
     "dailyMinutesDown": {
       "2026-04-21": 865,
@@ -35,7 +35,7 @@
     "time": 256,
     "timeDay": 0,
     "timeWeek": 0,
-    "timeMonth": 269,
+    "timeMonth": 268,
     "timeYear": 256,
     "dailyMinutesDown": {
       "2026-04-21": 865,
@@ -57,7 +57,7 @@
     "time": 138,
     "timeDay": 0,
     "timeWeek": 0,
-    "timeMonth": 136,
+    "timeMonth": 130,
     "timeYear": 138,
     "dailyMinutesDown": {
       "2026-05-22": 948,
@@ -78,7 +78,7 @@
     "time": 235,
     "timeDay": 0,
     "timeWeek": 0,
-    "timeMonth": 247,
+    "timeMonth": 246,
     "timeYear": 235,
     "dailyMinutesDown": {}
   }

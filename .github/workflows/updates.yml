@@ -16,8 +16,10 @@
 
 name: Updates CI
 on:
-  schedule:
-    - cron: "0 3 * * *"
+  # Scheduled runs disabled: Upptime regenerates workflows with
+  # a SECRETS_CONTEXT env var containing every secret, which exposes org secrets to a
+  # third-party action and trips GitHub's malicious-workflow detection.
+  # Run manually and re-remove SECRETS_CONTEXT afterwards.
   repository_dispatch:
     types: [updates]
   workflow_dispatch:

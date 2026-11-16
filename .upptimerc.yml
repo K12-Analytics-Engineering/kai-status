@@ -4,6 +4,9 @@ repo: kai-status
 assignees:
   - xmarcosx
 
+# Pass no secrets to the Upptime action; it gets its token from GH_PAT on its own.
+secrets: []
+
 sites:
   - name: Kai
     url: https://askkai.org

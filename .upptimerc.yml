@@ -9,6 +9,8 @@ sites:
     url: https://askkai.org
   - name: Kai API
     url: https://askkai.org/api/health
+  - name: Kai MCP
+    url: https://mcp.askkai.org/healthz
   - name: K12 Analytics Engineering
     url: https://k12analyticsengineering.dev
   - name: Kai Status

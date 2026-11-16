@@ -6,7 +6,7 @@
 # Your changes will be overwritten when the Upptime template updates (by default, weekly)
 # Instead, change .upptimerc.yml configuration and the workflows will be generated accordingly.
 #
-# 🔼 Upptime @v1.41.0
+# 🔼 Upptime @v1.46.5
 # GitHub-powered open-source uptime monitor and status page by Anand Chowdhary
 
 # * Source: https://github.com/upptime/upptime
@@ -16,13 +16,14 @@
 
 name: Updates CI
 on:
-  # Scheduled runs disabled: Upptime regenerates workflows with
-  # a SECRETS_CONTEXT env var containing every secret, which exposes org secrets to a
-  # third-party action and trips GitHub's malicious-workflow detection.
-  # Run manually and re-remove SECRETS_CONTEXT afterwards.
+  schedule:
+    - cron: "0 3 * * *"
   repository_dispatch:
     types: [updates]
   workflow_dispatch:
+concurrency:
+  group: ${{ github.repository }}-${{ github.head_ref || github.ref_name }}-upptime
+  cancel-in-progress: false
 jobs:
   release:
     name: Deploy updates
@@ -31,7 +32,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
         with:
-          ref: ${{ github.head_ref }}
+          ref: ${{ github.head_ref || github.ref_name }}
           token: ${{ secrets.GH_PAT || github.token }}
       - name: Update code
         uses: upptime/updates@master
